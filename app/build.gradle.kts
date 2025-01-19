@@ -57,10 +57,10 @@ dependencies {
 
     implementation(libs.viewModelLib)
     implementation(libs.liveDataLib)
-    ksp("androidx.lifecycle:lifecycle-compiler:2.8.7")
+    ksp(libs.androidx.lifecycle.compiler)
 
     implementation(libs.roomLib)
-    ksp("androidx.room:room-compiler:2.6.1")
+    ksp(libs.androidx.room.compiler)
     implementation(libs.roomCoroutines)
 
     implementation(libs.kotlinCoroutines)
