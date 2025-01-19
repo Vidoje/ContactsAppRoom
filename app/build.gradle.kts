@@ -57,7 +57,7 @@ dependencies {
 
     implementation(libs.viewModelLib)
     implementation(libs.liveDataLib)
-    //ksp("androidx.lifecycle:lifecycle-compiler:2.8.7")
+    ksp("androidx.lifecycle:lifecycle-compiler:2.8.7")
 
     implementation(libs.roomLib)
     ksp("androidx.room:room-compiler:2.6.1")
