@@ -22,10 +22,10 @@ androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
 androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
 androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
-viewModelLib = { group = "androidx.lifecycle", name="lifecycle-viewmodel-ktx", version.ref="lifecycle_version"}
-liveDataLib = { group="androidx.lifecycle", name="lifecycle-livedata-ktx", version.ref="lifecycle_version"}
-roomLib = {group = "androidx.room", name="room-runtime", version.ref="roomVersion"}
-
+viewModelLib = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "lifecycle_version" }
+liveDataLib = { group = "androidx.lifecycle", name = "lifecycle-livedata-ktx", version.ref = "lifecycle_version" }
+roomLib = { group = "androidx.room", name = "room-runtime", version.ref = "roomVersion" }
+roomCoroutines = { group = "androidx.room", name = "room-ktx", version.ref = "roomVersion" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
