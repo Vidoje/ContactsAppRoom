@@ -12,6 +12,7 @@ constraintlayout = "2.2.0"
 lifecycle_version = "2.8.7"
 roomVersion = "2.6.1"
 kspVersion = "2.1.0-1.0.29"
+kotlinCoroutinesVersion = "1.3.9"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -26,6 +27,7 @@ viewModelLib = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx",
 liveDataLib = { group = "androidx.lifecycle", name = "lifecycle-livedata-ktx", version.ref = "lifecycle_version" }
 roomLib = { group = "androidx.room", name = "room-runtime", version.ref = "roomVersion" }
 roomCoroutines = { group = "androidx.room", name = "room-ktx", version.ref = "roomVersion" }
+kotlinCoroutines = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "kotlinCoroutinesVersion" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
